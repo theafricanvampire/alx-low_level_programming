@@ -12,17 +12,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 if(n > 0) 
 {
-	printf("\n%d", n);
-	printf(" is positive"); 
+	printf("%d", n);
+	printf(" is positive\n"); 
 }
 else if(n == 0) {
-	printf("\n%d", n);
-	printf(" is zero");
+	printf("%d", n);
+	printf(" is zero\n");
 }
 else 
 {
-	printf("\n%d", n);
-	printf(" is negative");
+	printf("%d", n);
+	printf(" is negative\n");
 }
 	return (0);
 }
