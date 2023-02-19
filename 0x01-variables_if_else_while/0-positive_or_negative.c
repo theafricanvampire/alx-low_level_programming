@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- entry
- * return (0)
+ * main- entry point
+ * Description: "if,else if, else"
+ * Return: always (0) success
  */
 int main(void)
 {
