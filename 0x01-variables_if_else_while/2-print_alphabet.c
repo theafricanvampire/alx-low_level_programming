@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char a .. z;
-	putchar("%c", a .. z);
+	char a..z;
+	putchar("%c", a..z);
 
 	return (0);
 
