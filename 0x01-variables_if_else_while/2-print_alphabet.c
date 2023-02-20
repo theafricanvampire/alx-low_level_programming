@@ -7,7 +7,7 @@
 int main(void)
 {
 	char ch;
-	(Ch='a'; ch<='z'; ch++)
+	(ch='a'; ch<='z'; ch++)
 	putchar("%c", ch);
 
 	return (0);
