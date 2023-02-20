@@ -6,8 +6,9 @@
  */
 int main(void)
 {
-	char a..z;
-	putchar("%c", a..z);
+	char ch;
+	(Ch='a'; ch<='z'; ch++)
+	putchar("%c", ch);
 
 	return (0);
 
