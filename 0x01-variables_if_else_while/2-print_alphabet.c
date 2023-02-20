@@ -4,11 +4,15 @@
  *
  * return: always (0) success
  */
-char main(void)
+int main(void)
 {
-	char ch;
-	(ch='a'); (ch<='z'); (ch++);
-	putchar("%c", ch);
+	char alph[26] - "abcdefghijklmnopqrstuvwxyz";
+	int c;
+	for (c=0; c<26; c++)
+	{
+		putchar(alph[c]);
+	}
+	putchar("\n");
 	return (0);
 
 }
