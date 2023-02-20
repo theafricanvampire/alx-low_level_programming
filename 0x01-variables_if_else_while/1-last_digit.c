@@ -25,7 +25,7 @@ int main(void)
 		printf("%d", m);
 	}
 	
-	if(n>5)
+	if(n>5 && n!=0)
 	{
 		printf(" and is greater than 5\n");
 	}
