@@ -17,13 +17,13 @@ int main(void)
 		printf("Last digit of ");
 		printf("%d", n);
 		printf(" is ");
-	{
+
 		int m;
 		m = n % 10;
 
 		printf(" %d ", m);
 		return (0);
-	}
+
 	if(n>5)
 	{
 		printf(" and is greater than 5\n");
