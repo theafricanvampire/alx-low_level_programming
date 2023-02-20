@@ -24,6 +24,7 @@ int main(void)
 		printf("%d", m);
 		return (0);
 	}
+	{
 	if(n>5)
 	{
 		printf(" and is greater than 5\n");
@@ -37,5 +38,5 @@ int main(void)
 		printf(" and is less than 6 and not 0\n");
 	}
 	return (0);
-	}
+	}}
 }
