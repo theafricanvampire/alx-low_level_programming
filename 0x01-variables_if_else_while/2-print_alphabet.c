@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	((ch='a'); (ch<='z'); (ch++))
+	char ch;
+	((ch='a'); (ch<='z'); (ch++);)
 	putchar("%c", ch);
 
 	return (0);
