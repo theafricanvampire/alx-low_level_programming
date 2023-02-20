@@ -11,7 +11,6 @@ int main(void)
 {
 	int n;
 	int m;
-	m = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -21,6 +20,7 @@ int main(void)
 		printf(" is ");
 				
 	{
+		m = n % 10;
 		printf("%d", m);
 		return (0);
 	}
