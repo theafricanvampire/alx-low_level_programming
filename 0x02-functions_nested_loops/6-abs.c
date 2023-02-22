@@ -5,6 +5,8 @@
  * main -entry
  * return: alway (0)
  */
+
+int main(void)
 {
 	int x;
 
@@ -14,7 +16,7 @@
 	printf("%d\n", x);
 	x = _abs (1);
 	printf("%d\n", x);
-	r = _abs (98);
+	x = _abs (98);
 	printf("%d\n", x);
 	return (0);
 }
