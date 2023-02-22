@@ -4,7 +4,7 @@
  *
  * Return: always (0) success
  */
-int main(void)
+int main()
 {
 	char x;
 	for ( x = 'a'; x <= 'z'; x++)
