@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet_x10
+ * description: printing lower case alphabet ten times
  * Return: void
  */
 
@@ -12,7 +13,7 @@ void print_alphabet_x10(void)
 
 	while (y <= 9)
 	{
-	for(x = 'a'; x <= 'z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 	_putchar(x);
 	}
