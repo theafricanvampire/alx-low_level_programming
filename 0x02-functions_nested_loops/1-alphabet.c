@@ -1,16 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main -lower case alphabet
- * Return: always (0) success
+ * Return: void success
  */
-int main(void)
+void print_alphabet(void)
 {
-	int k;
-	while ( k == 'a'; k <= 'z'; k++)
+	char k;
+	for ( k == 'a'; k <= 'z'; k++)
 	{
-		_putchar("k");
+		_putchar(k);
 	}
 	_putchar('\n');
-	return (0);
-
 }
