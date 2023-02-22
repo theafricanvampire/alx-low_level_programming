@@ -8,9 +8,9 @@ int main(void)
 	int k;
 	while ( k == 'a'; k <= 'z'; k++)
 	{
-		write("k");
+		_putchar("k");
 	}
-	put('\n');
+	_putchar('\n');
 	return (0);
 
 }
