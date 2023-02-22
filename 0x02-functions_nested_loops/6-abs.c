@@ -1,22 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main -entry
- * return: alway (0)
+ * _abs - computes the absolute value of an integer
+ * @c: computee
+ * return: abs value or zero
  */
 
-int main(void)
+int _abs(int)
 {
-	int x;
+	if (c < o)
+	{
+		int abs_val;
 
-	x = _abs (-1);
-	printf("%d\n", x);
-	x = _abs (0);
-	printf("%d\n", x);
-	x = _abs (1);
-	printf("%d\n", x);
-	x = _abs (98);
-	printf("%d\n", x);
-	return (0);
+		abs_val = c * -1;
+		return (abs_val);
+	}
+	return (c);
 }
