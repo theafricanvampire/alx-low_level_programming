@@ -4,9 +4,9 @@
  *
  * Return: always (0) success
  */
-int main()
+int main(void)
 {
-	char x;
+	int x;
 	for ( x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
