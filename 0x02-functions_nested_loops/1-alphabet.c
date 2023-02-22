@@ -2,15 +2,16 @@
 /**
  * main -alphabet in lower case
  *
- * Return: always (0) success
+ * Return: always (0)
  */
 int main(void)
 {
+	void print_alphabet(void);
 	int x;
-	for ( x = 'a'; x <= 'z'; x++)
 	{
-		putchar(x);
+	for (x='a'; x<='z'z; x++)
+	_putchar(x);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
