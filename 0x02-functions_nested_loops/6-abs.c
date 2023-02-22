@@ -6,9 +6,9 @@
  * return: abs value or zero
  */
 
-int _abs(int)
+int _abs(int c)
 {
-	if (c < o)
+	if (c < 0)
 	{
 		int abs_val;
 
