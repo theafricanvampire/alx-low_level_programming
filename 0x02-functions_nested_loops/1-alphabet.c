@@ -8,7 +8,7 @@ int main(void)
 	int k;
 	while ( k == 'a'; k <= 'z'; k++)
 	{
-		put(k);
+		write("k");
 	}
 	put('\n');
 	return (0);
