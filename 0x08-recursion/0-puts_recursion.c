@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _puts_recursion - prints a given string
  * @s: string printed
  * return: 0
