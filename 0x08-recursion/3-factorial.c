@@ -3,19 +3,19 @@
 /**
  * factorial - determines the factorial numbers of a given number
  * @n: given number
- * return: factorials on positives and 0 and -1 on negatives
+ * return: 1 on success and 0 on error
  */
 
 int factorial(int n)
 {
-	if (n==0)
+	if (n == 0)
 	{
 		return (1);
 	}
-	else if (n<0)
+	else if (n < 0)
 	{
 		return (-1);
 	}
 	else
-		return (n*factorial(n-1));
+		return (n * factorial(n - 1));
 }

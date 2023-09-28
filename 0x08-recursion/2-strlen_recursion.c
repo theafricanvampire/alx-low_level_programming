@@ -3,12 +3,13 @@
 /**
  * _strlen_recursion - provides the length of a given string via character no.
  * @s: given string
- * return: length of the given string on success
+ * return: 1
  */
 
 int _strlen_recursion(char *s)
 {
-	int l=0;
+	int l = 0;
+
 	if (*s)
 	{
 		l++;
