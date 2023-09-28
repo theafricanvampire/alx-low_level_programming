@@ -4,7 +4,8 @@
  * _pow_recursion - returns x^y
  * @x: base number
  * @y: superscript number
- * return: always 1 on success
+ * 
+ * Return: always 1 on success
  */
 
 int _pow_recursion(int x, int y)

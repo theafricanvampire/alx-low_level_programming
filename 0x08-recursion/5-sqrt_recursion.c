@@ -11,14 +11,15 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (_sqrt(n,0));
+	return (_sqrt(n, 0));
 }
 
 /**
  * sqrt - finds actual, natural squareroot result
  * @n: number given
  * @q: iterator
- * return: squareroot
+ *
+ * Return: 1
  */
 
 int _sqrt(int n, int q)

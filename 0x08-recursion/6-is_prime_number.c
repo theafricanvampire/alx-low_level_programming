@@ -19,7 +19,8 @@ int is_prime_number(int n)
  * _prime - determines if a number is prime or not
  * @n: given number
  * @p: iterative numbers
- * return: 1 on success, 0 on non-prime
+ *
+ * Return: 1 on success, 0 on non-prime
  */
 
 int _prime(int n, int p)
