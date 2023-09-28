@@ -4,7 +4,7 @@
  * _pow_recursion - returns x^y
  * @x: base number
  * @y: superscript number
- * 
+ *
  * Return: always 1 on success
  */
 
